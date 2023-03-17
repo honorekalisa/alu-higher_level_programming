@@ -9,12 +9,13 @@ class Square:
     """
     class here
     """
+
     def __init__(self, size=0):
         """
         A constructor that initializes the size of the square.
         :param size: the size of the square matrix, defaults to 0 (optional)
         """
-        
+
         self.__size = size
 
     @property
@@ -23,7 +24,7 @@ class Square:
         This function returns the size of the list
         :return: The size of the square
         """
-       
+
         return self.__size
 
     @size.setter
@@ -38,7 +39,7 @@ class Square:
                 return self.__size ** 2
         :param value: The value to be assigned to the attribute
         """
-        
+
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
 
