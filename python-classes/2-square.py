@@ -5,7 +5,6 @@ with a constructor method & arguments
 """
 
 
-# It creates a class called Square.
 class Square:
     """
     This square validates data
@@ -16,7 +15,6 @@ class Square:
         The function __init__ is a constructor that initializes the size of the square
         :param size: The size of the square, defaults to 0 (optional)
         """
-
         if not isinstance(size, int):
             raise TypeError('size must be an integer')
         if size < 0:

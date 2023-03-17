@@ -13,7 +13,6 @@ class Square:
         """
         :param size: The size of the square, defaults to 0 (optional)
         """
-       
         # Check if size is not an int
         if not isinstance(size, int):
             raise TypeError('size must be an integer')
@@ -27,5 +26,4 @@ class Square:
         The function area() returns the area of the square
         :return: The area of the square.
         """
-       
         return self.__size ** 2
