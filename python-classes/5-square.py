@@ -7,6 +7,9 @@ square module
 
 # It creates a class called Square.
 class Square:
+    """
+    square class
+    """
 
     def __init__(self, size=0):
         """
