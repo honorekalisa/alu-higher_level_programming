@@ -30,9 +30,12 @@ class Square:
     @size.setter
     def size(self, value):
         """
-        The function size() takes in a value and checks if it is an integer. If it is not an integer, it
-        raises a TypeError. If it is an integer, it checks if it is less than 0. If it is less than 0,
-        it raises a ValueError. If it is not less than 0, it sets the value of size to the value of the
+        The function size() takes in a value and checks if it is an integer.
+        If it is not an integer, it
+        raises a TypeError. If it is an integer, it checks if it is less than 0.
+        If it is less than 0,
+        it raises a ValueError. If it is not less than 0,
+        it sets the value of size to the value of the
         argument.
         # Python
         def area(self):
