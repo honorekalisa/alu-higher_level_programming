@@ -7,12 +7,11 @@ square module
 
 class Square:
     """
-    docs
+    class here
     """
     def __init__(self, size=0):
         """
         A constructor that initializes the size of the square.
-        
         :param size: the size of the square matrix, defaults to 0 (optional)
         """
         
@@ -34,11 +33,9 @@ class Square:
         raises a TypeError. If it is an integer, it checks if it is less than 0. If it is less than 0,
         it raises a ValueError. If it is not less than 0, it sets the value of size to the value of the
         argument.
-         
         # Python
         def area(self):
                 return self.__size ** 2
-        
         :param value: The value to be assigned to the attribute
         """
         

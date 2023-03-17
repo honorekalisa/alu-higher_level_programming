@@ -14,7 +14,6 @@ class Square:
     def __init__(self, size=0):
         """
         The function __init__ is a constructor that initializes the size of the square
-        
         :param size: The size of the square, defaults to 0 (optional)
         """
 
