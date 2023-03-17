@@ -11,8 +11,6 @@ class Square:
     """
     def __init__(self, size=0):
         """
-        If the size is not an integer, raise a TypeError exception with the message
-        size must be an integer. 
         :param size: The size of the square, defaults to 0 (optional)
         """
        
