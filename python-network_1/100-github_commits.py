@@ -10,6 +10,7 @@ if __name__ == "__main__":
         json = response.json()
         for i in range(10):
             print("{}: {}".format(json[i].get('sha'),
-                                  json[i].get('commit').get('author').get('name')))
+                                  json[i].get('commit')
+                                  .get('author').get('name')))
     except:
         pass
