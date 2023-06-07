@@ -1,10 +1,10 @@
 #!/usr/bin/node
-function printArguments(myArgs) {
-  if (!myArgs) {
-    console.log('No argument');
-  }
-  if (myArgs.length === 1) {
-    console.log('Argument found');
-  }
-  console.log(myArgs);
+const numberOfArguments = process.argv.length - 2;
+
+if (numberOfArguments === 0) {
+  console.log("No argument");
+} else if (numberOfArguments === 1) {
+  console.log("Argument found");
+} else {
+  console.log("Arguments found");
 }
