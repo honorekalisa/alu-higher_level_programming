@@ -1,3 +1,4 @@
+#!/usr/bin/node
 function printArguments(myArgs) {
   if (!myArgs) {
     console.log("No argument");
