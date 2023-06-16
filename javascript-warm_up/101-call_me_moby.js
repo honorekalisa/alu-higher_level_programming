@@ -9,4 +9,4 @@ function callMeMoby() {
   console.log("C is fun");
 }
 
-executeNTimes(100, callMeMoby());
+executeNTimes(5, callMeMoby());
