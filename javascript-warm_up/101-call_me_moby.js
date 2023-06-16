@@ -1,12 +1,10 @@
 #!/usr/bin/node
-const executeNTimes = function (x, theFunction) {
+const callMeMoby = function (x, theFunction) {
   for (let i = 0; i < x; i++) {
     theFunction();
   }
 };
 
-function callMeMoby() {
+callMeMoby(5, function () {
   console.log("C is fun");
-}
-
-executeNTimes(5, callMeMoby);
+});
